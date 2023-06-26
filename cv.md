@@ -16,6 +16,7 @@ I hope to become a proficient and effective frontend developer.
 * VScode
 * Figma
 * Adobe Lightroom and Adobe Photoshop
+* Procreate
 ## Project Experience
 CV project <https://NabooV2.github.io/rsschool-cv/cv>
 ## Code examples

@@ -3,8 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="header">
+    <section class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        </ul>
+      </nav>
+    </section>
+</header>   
+<main class="main">
+  <div class="container left-block">
+    <figure>
+      <img src="assets/img/image.jpg" class="profile-avatar" alt="profile-avatar">
+    </figure> 
+    <section class="contacts" id="contacts">
+      <h2 class="section-title">Contacts</h2>
+      <ul class="contacts-list">
+        <li class="contacts-item"><img src="assets/img/location.png" width="24" height="24" width="64" hspace="10px">Russia, Tosno</li>
+        <li class="contacts-item"><img src="assets/img/mail.png" width="24" height="24" width="64" hspace="10px">tomaarsy@gmail.com</li>
+        <li class="contacts-item"><img src="assets/img/discord.png" width="24" height="24" width="64" hspace="10px">naboo_v2</li>
+      </ul>
+    </section>
+    <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li class="skills-item"><img src="assets/img/coding.png" width="24" height="24" width="64" hspace="10px">Web: HTML, CSS</li>
+      <li class="skills-item"><img src="assets/img/merge.png" width="24" height="24" width="64" hspace="10px">Version control: Git, GitHub</li>
+      <li class="skills-item"><img src="assets/img/web-design.png" width="24" height="24" width="64" hspace="10px">Grafics: Photoshop, Procreate</li>
+    </ul>
+    </section>
+    <section class="languages" id="languages">
+      <h2 class="section-title">Languages</h2>
+      <ul>
+        <li>English - Pre-Intermediate.</li>
+        <li>Russian - Native.</li>
+      </ul>
+    </section>
+  </div> 
+  <div class="container right-block">
+    <section class="cv-title">
+      <h1>Tamara Loginova</h1>
+      <h4>Front-end student</h4>
+    </section>
+    <section class="summary" id="summary">
+      <h2>About me</h2>
+        <p>Hi! I'm 33 y.o. and right now i work as a doctor, but my goal is front-end development. Currently, i'm learning HTML, CSS and JavaScript basics.
+          And i hope to become a proficient and effective frontend developer</p>
+    </section>
+    <section class="education" id="education">
+      <h2>Education</h2>
+          <ul>
+          <li>Amur State Medical Academy
+            <ul>
+              <li>Physician</li>
+              <li>Infectious disease doctor</li>
+            </ul>
+          </li>
+          <li>European university "Business triangle"
+            <ul>
+          <li>Physiotherapist</li>
+            </ul>
+          </li>
+          <li>RS School
+            <ul>
+          <li>«JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+          </li>
+          <li>Hexlet
+            <ul>
+            <li>JavaScript basics</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+        <a href="https://naboov2.github.io/rsschool-cv/cv"> CV Markdown project</a>
+      <h3>Code example</h3>
+        <pre>
+          <code class="js-code-example"> 
+        function multiply(a, b){
+          return a * b
+        }
+        </code>
+        </pre>
+    </section>
+  </div>
+ </main> 
+<footer class="footer">
+  <section class="footer-container">
+      <ul class="list-footer">
+        <li class="footer-item"><a href="https://github.com/NabooV2" class="nav-link"><img src="assets/img/gh.png" class="footer-image">GitHub</a></li>
+        <li class="footer-item"><a href="https://rs.school/js/" class="nav-link"><img src="assets/favicon.ico" class="footer-image"></a></li>
+        <li class="year">2023</li>
+      </ul>
+    </section>
+</footer>
 </body>
 </html>

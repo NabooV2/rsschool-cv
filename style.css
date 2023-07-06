@@ -1,0 +1,154 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+* {
+    box-sizing: border-box;
+  }
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+header {
+    max-width: 1040px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: #b5e08c;   
+}
+.profile-avatar {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+main {
+    max-width: 1040px;
+    margin: auto;
+    display: flex;
+    border: 1px solid #b5e08c;
+}
+footer {
+    max-width: 1040px;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    background-color: #b5e08c;
+}
+.list-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  list-style: none;
+ }
+.footer-image {
+height: 38px;
+}
+.year {
+  padding: 0 20px;
+  line-height: 50px;
+}
+.footer-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.footer-item a:hover {
+  color: black;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+  .nav-list {
+    list-style: none;
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+  }
+div {
+    display: block;
+}  
+.left-block {
+    width: 40%;
+    float: left;
+    color: black;
+    background-color: #b5e08c;
+    padding: 10px;
+}
+.right-block {
+    margin-left: 5%;
+    width: 85%;
+}
+pre {
+  font-family: 'Roboto Slab', serif;
+  background-color: #b5e08c81;
+  width: 85%;
+  height: 100px;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contacts-item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skills-item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+.js-code-example {
+  padding-top: 0px;
+}
+.nav-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.nav-item a:hover {
+  color: black;
+}
